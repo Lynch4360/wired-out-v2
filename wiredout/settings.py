@@ -33,8 +33,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['wiredout-v2.herokuapp.com', 'localhost']
 
 
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -64,7 +62,7 @@ ROOT_URLCONF = 'wiredout.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_DIR],
+        'DIRS': [TEMPLATES_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
