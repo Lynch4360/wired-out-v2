@@ -38,7 +38,7 @@ class Comment(models.Model):
     approved = models.BooleanField(default=False)
 
     class Meta:
-        ordering = ['created_on']  
+        ordering = ['created_on']
         # in ascending order so the newest will be displayed first
 
     def __str__(self):
